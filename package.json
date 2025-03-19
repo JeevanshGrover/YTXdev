@@ -1,0 +1,17 @@
+{
+  "name": "ytbackend",
+  "version": "1.0.0",
+  "description": "learning backend using this project",
+  "keywords": [
+    "javascript",
+    "backend",
+    "jeeva"
+  ],
+  "license": "ISC",
+  "author": "Jeevansh Grover",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
