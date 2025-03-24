@@ -11,4 +11,13 @@ dotenv.config({
 })
 
 
-connectDB();
+connectDB()
+.then(() => {
+    app.listen(process.env.PORT || 8000, () => {
+        console.log(`Swevwe is running at port : ${process.env.PORT}`)
+        //write code for error 5:45
+    })
+})
+.catch((err) => {
+    console.log("MonfoDB connection failed!!!", err);
+})
